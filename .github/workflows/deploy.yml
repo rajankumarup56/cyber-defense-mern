@@ -26,6 +26,9 @@ jobs:
           cd client
           npm run build
 
+      - name: Fix routing
+        run: cp client/build/index.html client/build/404.html
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
