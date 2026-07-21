@@ -1,13 +1,24 @@
-# Cyber Defense MERN Project
+# Cyber Defense MERN App 🔐
 
-Full Stack MERN App with Login & Register
+## Features
+- User Registration & Login (JWT Auth)
+- Password Hashing (bcrypt)
+- Secure API
+- MERN Stack
 
-## Run
+## Tech Stack
+- Frontend: React
+- Backend: Node.js, Express
+- Database: MongoDB
 
-Backend:
+## Setup
+
+### Backend
 cd server
-node server.js
+npm install
+npm start
 
-Frontend:
+### Frontend
 cd client
+npm install
 npm start
